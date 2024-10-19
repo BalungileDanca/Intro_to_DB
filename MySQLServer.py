@@ -13,7 +13,7 @@ def create_database():
                         print("Successfully connected to the database server.")
                 mycursor = mydb.cursor()
 
-                sql = "CREATE DATABASE IF NOT EXISTS alx_book_python"
+                sql = "CREATE DATABASE IF NOT EXISTS alx_book_store"
                 mycursor.execute(sql)
                 print("Database 'alx_book_store' created successfully!")
         except Error as e:
